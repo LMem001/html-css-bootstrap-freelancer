@@ -1,0 +1,18 @@
+.menu {
+  height: 100px;
+  background-color: grey;
+}
+
+.menu_left, .menu_right  {
+  display: inline-block;
+}
+
+.menu_left  {
+  width: 30%;
+  text-align: left;
+}
+
+.menu_right  {
+  width: 6%;
+  text-align: right;
+}
