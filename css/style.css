@@ -1,23 +1,4 @@
-.menu {
-  width: 100%;
-  position: fixed;
-  padding: 40px 0;
-  z-index: 1;
-}
-
-.menu_left  {
-  float: left;
-}
-
-.menu_right  {
-  float: right;
-}
-
-.hero {
-  position: relative;
-  height: 100vh
-}
-
+/* mix */
 .site_main_color  {
   background-color: #1abc9c;
 }
@@ -25,6 +6,30 @@
 .site_secondary_color {
   background-color: #2c3e50;
   color: white;
+}
+/* mix end */
+/* fixed top menu */
+.menu {
+  width: 100%;
+  position: fixed;
+  padding: 40px 0;
+  z-index: 1;
+}
+/* start use bootstrap */
+.menu_left  {
+  float: left;
+}
+/* start use bootstrap end */
+/* nav */
+.menu_right  {
+  float: right;
+}
+/* nav */
+/* fixed top menu end */
+/* hero */
+.hero {
+  position: relative;
+  height: 100vh
 }
 
 .banner  {
@@ -36,19 +41,18 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
+/* hero end */
+/* portfolio */
 .block_ex  {
   background-color: green;
   height: 100px;
   margin-bottom: 30px;
 }
-
-.prova  {
-  height: 500px;
-}
-
+/* portfolio end */
+/* copyright */
 .copyright  {
   background-color: #1a252f;
   color: white;
   padding: 10px;
 }
+/* copyright end */
