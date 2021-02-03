@@ -15,9 +15,12 @@
 }
 
 .hero {
-  background-color: #1abc9c;
   position: relative;
   height: 100vh
+}
+
+.site_light_blue  {
+  background-color: #1abc9c;
 }
 
 .banner  {
