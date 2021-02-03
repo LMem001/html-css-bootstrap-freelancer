@@ -1,18 +1,19 @@
 .menu {
-  height: 100px;
+  width: 100%;
   background-color: grey;
-}
-
-.menu_left, .menu_right  {
-  display: inline-block;
+  position: fixed;
+  padding: 40px 0;
 }
 
 .menu_left  {
-  width: 30%;
-  text-align: left;
+  float: left;
 }
 
 .menu_right  {
-  width: 6%;
-  text-align: right;
+  float: right;
+}
+
+.hero {
+  height: 110vh;
+  background-color: #1abc9c;
 }
