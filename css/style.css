@@ -3,6 +3,7 @@
   background-color: grey;
   position: fixed;
   padding: 40px 0;
+  z-index: 1;
 }
 
 .menu_left  {
@@ -14,6 +15,17 @@
 }
 
 .hero {
-  height: 110vh;
   background-color: #1abc9c;
+  position: relative;
+  height: 100vh
+}
+
+.banner  {
+  width:500px;
+  height: 500px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
