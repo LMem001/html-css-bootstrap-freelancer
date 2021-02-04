@@ -34,9 +34,9 @@
           <div class="menu_right text-right text-uppercase">
             <div class="hidden-xs hidden-sm">
               <ul class="list-unstyled list-inline not_decorated">
-                <li class="li"><a href="#">Portfolio</a></li>
-                <li class="li"><a href="#">About</a></li>
-                <li class="li"><a href="#">Contact</a></li>
+                <li class="li"><a href="#portfolio">Portfolio</a></li>
+                <li class="li"><a href="#about">About</a></li>
+                <li class="li"><a href="#contact">Contact</a></li>
               </ul>
             </div>
             <div class="hidden-md hidden-lg not_decorated">
@@ -67,7 +67,7 @@
   </header>
   <main>
     <!-- portfolio -->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio sect_padding">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
@@ -135,7 +135,7 @@
     </section>
     <!-- /portfolio -->
     <!-- about -->
-    <section class="about site_main_color">
+    <section id="about" class="about sect_padding site_main_color">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
@@ -160,7 +160,7 @@
     </section>
     <!-- /about -->
     <!-- contact me -->
-    <section class="contact_me">
+    <section id="contact" class="contact_me">
       <div class="row">
         <div class="col-xs-12 text-center">
           <h2 class="text-uppercase text_secondary_color font_bold main_h_size">Contact Me</h2>
@@ -175,68 +175,79 @@
         <!-- form -->
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <input class="form_box" type="text" placeholder="Name">
+            <input class="form_box" type="text" required="required" placeholder="Name">
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <input class="form_box" type="email" placeholder="E-mail Address">
+            <input class="form_box" type="email" required="required" placeholder="E-mail Address">
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <input class="form_box" type="number" placeholder="Phone Number">
+            <input class="form_box" type="number" required="required" placeholder="Phone Number">
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <input class="form_box msg" type="text" placeholder="Message">
+            <input class="form_box msg" type="text" required="required" placeholder="Message">
           </div>
         </div>
-        <div class="row"><div class="col-xs-12 col-sm-10 col-sm-offset-1"><a href="#">btn</a></div></div>
         <!-- /form -->
+        <!-- send button -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1 not_decorated">
+            <a class="send_btn site_main_color" href="#">Send</a>
+          </div>
+        </div>
+        <!-- send button end -->
       </div>
     </section>
     <!-- /contact me -->
   </main>
   <footer>
     <!-- info -->
-    <div class="about_us text-center site_secondary_color">
+    <section class="about_us text-center sect_padding site_secondary_color">
       <div class="container">
         <div class="row">
           <!-- location -->
           <div class="col-xs-12 col-md-4">
-            <div class="foot-box">
-              <h5>lorem</h5>
-              <p>lorem ipsum jnadsfkjapoàs jtojan gfòoansd fn</p>
+            <div class="foot_box location">
+              <h5 class="text-uppercase font_bold">Location</h5>
+              <p>2215 John Daniel Drive Clark, MO 65243</p>
             </div>
           </div>
           <!-- /location -->
           <!-- social links -->
           <div class="col-xs-12 col-md-4">
-            <div class="foot-box">
-              <h5>lorem</h5>
-              <ul>
-                <li><a href="">icon</a></li>
-              </ul>
+            <div class="foot_box">
+              <h5 class="text-uppercase font_bold">Around the web</h5>
+              <div class="socials">
+                <ul class="list-unstyled list-inline not_decorated">
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <!-- /social links -->
           <!-- about the product -->
           <div class="col-xs-12 col-md-4">
-            <div class="foot-box">
-              <h5>lorem</h5>
-              <p>lorem ipsum jnadsfkjapoàs jtojan gfòoansd fn</p>
+            <div class="foot_box about_software">
+              <h5 class="text-uppercase font_bold">About Freelancer</h5>
+              <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a class="start_bootstrap text_main_color" href="#">Start Bootstrap</a>.</p>
             </div>
           </div>
           <!-- /about the product -->
         </div>
       </div>
-    </div>
+    </section>
     <!-- info -->
     <!-- copyright -->
     <div class="copyright text-center">
-      <p>lorem ipsum</p>
+      <p>Copyright &copy; 2019 HubSpot, Inc.</p>
     </div>
     <!-- /copyright -->
   </footer>

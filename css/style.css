@@ -8,6 +8,10 @@
   color: white;
 }
 
+.sect_padding {
+  padding: 50px 0;
+}
+/* site colors */
 .site_main_color  {
   background-color: #1abc9c;
   color: white;
@@ -17,11 +21,8 @@
   background-color: #2c3e50;
   color: white;
 }
-
-.text_secondary_color {
-  color: #2c3e50;
-}
-
+/* site colors end */
+/* separator */
 .separator {
   font-size: 30px;
   margin-bottom: 30px;
@@ -32,8 +33,6 @@
   display: inline-block;
   margin: 0 7px;
 }
-
-
 .line  {
   display: inline-block;
   width: 108px;
@@ -45,10 +44,20 @@
 .line-dark {
   border-color: #2c3e50;
 }
+/* separator end */
+/* font  */
+.text_main_color {
+  color:  #1abc9c;
+}
+
+.text_secondary_color {
+  color: #2c3e50;
+}
 
 .font_bold  {
   font-weight: 700;
 }
+/* font end  */
 /* mix end */
 /* fixed top menu */
 .menu {
@@ -101,10 +110,6 @@
 }
 
 /* portfolio */
-.portfolio  {
-  padding-top: 50px;
-}
-
 .block_ex  {
   margin-bottom: 50px;
   font-size: 0;
@@ -143,10 +148,6 @@
 }
 /* portfolio end */
 /* about */
-.about {
-  padding: 60px 0;
-}
-
 .about p {
   font-size: 18px;
   line-height: 30px;
@@ -154,13 +155,17 @@
 
 .download_btn {
   padding: 13px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 5px;
   font-size: 20px;
   display: inline-block;
   margin-top: 15px;
 }
 /* about end */
+/* contact me */
+.contact_me  {
+  padding: 50px 0;
+}
 /* form */
 .form_box  {
   width: 100%;
@@ -173,7 +178,44 @@
 .msg {
   padding-bottom: 150px;
 }
+
+.send_btn  {
+  padding: 20px 25px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 18px;
+}
 /* form end */
+/* contact me end */
+.about_us h5 {
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+
+.about_us p {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.location {
+  padding: 0 60px;
+}
+
+.socials ul li a {
+  padding: 12px 18px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.about_software  {
+  padding: 0 13px;
+}
+
+.start_bootstrap  {
+  font-size: 18px;
+}
 /* copyright */
 .copyright  {
   background-color: #1a252f;
