@@ -1,4 +1,13 @@
 /* mix */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.not_decorated a {
+  text-decoration: none;
+  color: white;
+}
+
 .site_main_color  {
   background-color: #1abc9c;
 }
@@ -14,6 +23,12 @@
   position: fixed;
   padding: 40px 0;
   z-index: 1;
+}
+
+.menu_left h1 {
+  font-weight: 700;
+  font-size: 27px;
+  margin-top:0;
 }
 /* fixed top menu end */
 /* hero */
