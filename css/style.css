@@ -15,16 +15,6 @@
   padding: 40px 0;
   z-index: 1;
 }
-/* start use bootstrap */
-.menu_left  {
-  float: left;
-}
-/* start use bootstrap end */
-/* nav */
-.menu_right  {
-  float: right;
-}
-/* nav */
 /* fixed top menu end */
 /* hero */
 .hero {
