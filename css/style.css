@@ -18,6 +18,10 @@
   color: white;
 }
 
+.text_secondary_color {
+  color: #2c3e50;
+}
+
 .separator {
   font-size: 30px;
   margin-bottom: 30px;
@@ -37,20 +41,26 @@
   border-radius: 5px;
   margin-bottom: 5px;
 }
+
+.line-dark {
+  border-color: #2c3e50;
+}
+
+.font_bold  {
+  font-weight: 700;
+}
 /* mix end */
 /* fixed top menu */
 .menu {
   width: 100%;
   position: fixed;
   padding: 20px 0;
-  font-weight: 700;
   z-index: 1;
 }
 
 .menu_left h1 {
   font-size: 27px;
   margin-top:0;
-  font-weight: 700;
 }
 
 .menu ul {
@@ -77,7 +87,6 @@
 }
 
 .hero h1 {
-  font-weight: 700;
   font-size: 60px;
   margin-top: 30px;
 }
@@ -86,11 +95,50 @@
   font-size: 21px;
 }
 /* hero end */
+
+.main_h_size {
+  font-size: 45px;
+}
+
 /* portfolio */
+.portfolio  {
+  padding-top: 50px;
+}
+
 .block_ex  {
-  background-color: green;
-  height: 100px;
   margin-bottom: 30px;
+  font-size: 0;
+}
+
+.block_ex img, .overlay  {
+  border-radius: 10px;
+}
+
+.block_ex img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  position: relative;
+}
+
+.overlay  {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 0 15px;
+}
+
+.overlay .fa-plus {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay:hover  {
+  opacity: 1;
 }
 /* portfolio end */
 /* copyright */
