@@ -36,3 +36,10 @@
   border-radius: 10px;
 }
 /* new */
+
+.line  {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
