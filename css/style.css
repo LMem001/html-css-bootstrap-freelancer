@@ -54,6 +54,11 @@
   color: #1abc9c;
 }
 
+.black_white_hover a:hover {
+  background-color: white;
+  color: #1a252f;
+}
+
 .text_secondary_color {
   color: #2c3e50;
 }
