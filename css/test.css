@@ -14,18 +14,14 @@
   position: fixed;
   padding: 40px 0;
   z-index: 1;
+  font-weight: 700;
 }
 
 *{
   font-family: 'Montserrat', sans-serif;
 }
 /* fixed top menu end */
-
-
-/* new */
-
 .menu_left h1 {
-  font-weight: 700;
   font-size: 27px;
   margin-top:0;
 }
@@ -34,3 +30,9 @@
   text-decoration: none;
   color: white;
 }
+
+.menu_btn  {
+  padding: 13px;
+  border-radius: 10px;
+}
+/* new */
