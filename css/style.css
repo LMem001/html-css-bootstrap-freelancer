@@ -3,6 +3,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body p, main a {
+  font-family: 'Lato', sans-serif;
+}
+
 .not_decorated a {
   text-decoration: none;
   color: white;
@@ -26,6 +30,7 @@
 .separator {
   font-size: 30px;
   margin-bottom: 30px;
+  color: currentColor;
 }
 
 .separator .fa-star {
@@ -33,16 +38,13 @@
   display: inline-block;
   margin: 0 7px;
 }
-.line  {
+.separator::before, .separator::after {
+  content: '';
   display: inline-block;
-  width: 108px;
-  border: 2px solid white;
+  width: 100px;
+  border: 2px solid currentColor;
   border-radius: 5px;
   margin-bottom: 5px;
-}
-
-.line-dark {
-  border-color: #2c3e50;
 }
 /* separator end */
 /* font  */
@@ -148,6 +150,7 @@
   font-size: 80px;
   padding: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .overlay .fa-plus {
@@ -162,7 +165,7 @@
 }
 /* portfolio end */
 /* about */
-.about p {
+#about p {
   font-size: 18px;
   line-height: 30px;
 }
@@ -177,9 +180,6 @@
 }
 /* about end */
 /* contact me */
-.contact_me  {
-  padding: 50px 0;
-}
 /* form */
 .form_box  {
   width: 100%;
