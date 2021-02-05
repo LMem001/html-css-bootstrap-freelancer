@@ -187,6 +187,7 @@ body p, main a {
   padding-bottom: 35px;
   border-bottom: 1px solid lightgrey;
   font-size: 24px;
+  outline: none;
 }
 
 .msg {
